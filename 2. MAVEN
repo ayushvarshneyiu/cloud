@@ -31,7 +31,7 @@ cd jenkins-java-project.git
 PLUGIN: its a small software which automates our work.
 with the plugins we can use tools without installing them.
 
-GOAL: its a command used to perfrom task.
+GOAL: its a command used to perform task.
 MAVEN follows a lifecycle
 
 mvn compile	: to compile the source code
