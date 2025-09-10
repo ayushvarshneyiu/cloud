@@ -84,7 +84,7 @@ git show commit_id
 BRANCHES:
 It is a individaual line of developemt.
 developers write the code on branches.
-initally baraches we create on git.
+initally branches we create on git.
 after write source code on git we push to github.
 Default barnch is Master.
 Note: when we do a iniatl commit the only default branch will be created.
