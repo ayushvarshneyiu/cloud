@@ -54,6 +54,19 @@ update-alternatives --config java
 #STEP-4: RESTARTING JENKINS (when we download service it will on stopped state)
 systemctl start jenkins.service
 systemctl status jenkins.service
+=--------------------------------------------------------------
+sudo yum update -y
+   24  sudo yum install -y java-17-openjdk
+   25  sudo yum install -y java-17-openjdk-devel
+   26  sudo dnf install -y java-17-amazon-corretto-devel
+   27  java -version
+   28  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+   29  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+   30  sudo yum install -y jenkins
+   31  sudo systemctl enable jenkins
+   32  sudo systemctl start jenkins
+   33  sudo systemctl status jenkins
+============================================================
 
 copy public ip and paste on browser like this
 public-ip:8080
